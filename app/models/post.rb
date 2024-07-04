@@ -9,7 +9,6 @@
 #  content    :text
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  views      :integer          default(0)
 #
 class Post < ApplicationRecord
   validates :title, presence: true
